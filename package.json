@@ -1,0 +1,25 @@
+{
+  "name": "vue-hbs-admin-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hongbusi/vue-hbs-admin-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hongbusi/vue-hbs-admin-docs/issues"
+  },
+  "homepage": "https://github.com/Hongbusi/vue-hbs-admin-docs#readme",
+  "devDependencies": {
+    "vitepress": "^0.22.3"
+  }
+}
