@@ -1,12 +1,12 @@
 <template>
-  <a class="hbs-link-button" href="/javascript/browser">
+  <a class="hbs-link-button" :href="link" target="_blank">
     <slot />
   </a>
 </template>
 
 <script setup lang="ts">
 defineProps<{
-  href: string
+  link: string
 }>()
 </script>
 
