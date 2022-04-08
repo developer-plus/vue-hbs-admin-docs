@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/Hongbusi/vue-hbs-admin-docs#readme",
   "devDependencies": {
+    "@types/node": "^17.0.23",
     "@vue/theme": "^1.0.1",
+    "unplugin-vue-components": "^0.18.5",
     "vite": "^2.9.1",
     "vitepress": "^0.22.3",
     "vue": "^3.2.31"
