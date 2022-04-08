@@ -1,7 +1,3 @@
----
-sidebarDepth: 2
----
-
 # vue-hbs-admin
 
 提供现成的开箱解决方案及丰富的示例，提高开发效率。
