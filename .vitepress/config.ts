@@ -36,12 +36,14 @@ export default defineConfigWithTheme<Config>({
     },
 
     nav: [
-      { text: '教程', link: '/', activeMatch: '^/$|^/guide/' },
-      { text: '贡献指南', link: '/contribution-guide' }
+      { text: '教程', link: '/' },
+      { text: '组件', link: '/components/' },
+      { text: '在线预览', link: 'https://vue-hbs-admin.netlify.app' }
     ],
 
     sidebar: {
       '/guide/': getGuideSidebar(),
+      '/components/': getComponentsSidebar(),
       '/': getGuideSidebar()
     }
   },
@@ -72,6 +74,23 @@ function getGuideSidebar() {
       text: '介绍',
       items: [
         { text: 'vue-hbs-admin', link: '/' }
+      ]
+    },
+    {
+      text: '贡献指南',
+      items: [
+        { text: '介绍', link: '/guide/' }
+      ]
+    }
+  ]
+}
+
+function getComponentsSidebar() {
+  return [
+    {
+      text: '组件',
+      items: [
+        { text: '介绍', link: '/components/' }
       ]
     }
   ]

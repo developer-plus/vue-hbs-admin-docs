@@ -13,12 +13,13 @@ defineProps<{
 <style scoped>
 .hbs-link-button {
   display: inline-block;
-  padding: 8px 18px;
+  padding: 4px 12px;
   background-color: var(--vt-c-green);
   color: #fff !important;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   border-radius: 8px;
+  cursor: pointer;
   transition: background-color 0.5s, color 0.5s;
 }
 

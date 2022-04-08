@@ -1,12 +1,14 @@
----
-sidebar: auto
----
-
 # 贡献指南
 
-- [待完成需求列表](https://github.com/Hongbusi/vue-hbs-admin/labels/feature)
-- [报告问题](https://github.com/Hongbusi/vue-hbs-admin/issues/new?assignees=&labels=pending+triage&template=bug_report.yml)
-- [提出要添加的新功能](https://github.com/Hongbusi/vue-hbs-admin/issues/new?assignees=&labels=enhancement&template=feature_request.yml)
+如果你准备参与贡献，请仔细阅读贡献指南。
+
+## 相关链接
+
+<HbsButton link="https://github.com/Hongbusi/vue-hbs-admin/labels/feature">需求列表</HbsButton>
+
+<HbsButton link="https://github.com/Hongbusi/vue-hbs-admin/issues/new?assignees=&labels=pending+triage&template=bug_report.yml" style="margin-left: 12px;">报告问题</HbsButton>
+
+<HbsButton link="https://github.com/Hongbusi/vue-hbs-admin/issues/new?assignees=&labels=enhancement&template=feature_request.yml" style="margin-left: 12px;">添加新功能</HbsButton>
 
 ## 开发要求
 
