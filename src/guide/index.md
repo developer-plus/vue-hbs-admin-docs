@@ -1,32 +1,27 @@
-# 开发规范
+# 贡献指南
 
-如果你准备参与贡献，请仔细阅读贡献指南。
+你好！很高兴你有兴趣为 [vue-hbs-admin](https://github.com/Hongbusi/vue-hbs-admin) 做贡献。在提交您的贡献之前，请务必花点时间阅读以下指南：
 
-## 相关链接
+[[toc]]
 
-<HbsButton link="https://github.com/Hongbusi/vue-hbs-admin/labels/feature">需求列表</HbsButton>
+## 开发设置
 
-<HbsButton link="https://github.com/Hongbusi/vue-hbs-admin/issues/new?assignees=&labels=pending+triage&template=bug_report.yml" style="margin-left: 12px;">报告问题</HbsButton>
+你将需要 [Node.js](https://nodejs.org) 版本 16+ 和 [pnpm](https://github.com/pnpm/pnpm)。
 
-<HbsButton link="https://github.com/Hongbusi/vue-hbs-admin/issues/new?assignees=&labels=enhancement&template=feature_request.yml" style="margin-left: 12px;">添加新功能</HbsButton>
+我们还建议安装 [ni](https://github.com/antfu/ni) 以帮助使用不同的包管理器在 repos 之间切换。`ni` 还提供了方便的 `nr` 命令，可以更轻松地运行 npm 脚本。
 
-## 开发要求
+## 任务状态
 
-- Nodejs version 14+
-- [pnpm](https://github.com/pnpm/pnpm)
+- issue 存在 `label` 为 `Developer`、`Developer:username` 时，表示任务已被领取。
+- issue 下有人留言要去做这个功能，表示任务已被领取。
+- 否则，视为未被领取。
+
+::: warning 注意
+一周内未提交任何相关 pr，视为放弃任务。
+:::
 
 ## 领取任务
 
 - 项目成员：对应 issue 添加 `label`，格式为：`Developer:username`。
-- 非项目成员：对应任务 issue 下留言，会为你添加 `label` -> `Developer`。
+- 非项目成员：对应任务 issue 下留言，项目成员看见会为你添加 `label` -> `Developer`。
 
-## 判断任务是否已被领取
-
-- 当 issue 存在 `Developer` 或格式为 `Developer:username` 的 `label`，既已被领取。
-- 否则，视为未被领取。
-
-## 参考项目汇总
-
-拿到一个需求，没有灵感，不知道该怎么下手？
-
-如果你遇到这样的问题，那么你可以[去这里](https://github.com/Hongbusi/vue-hbs-admin/discussions/6)研究一下这些项目，寻找一些灵感～
