@@ -71,15 +71,10 @@ export default defineConfigWithTheme<Config>({
 function getGuideSidebar() {
   return [
     {
-      text: '介绍',
+      text: '指南',
       items: [
-        { text: 'vue-hbs-admin', link: '/' }
-      ]
-    },
-    {
-      text: '贡献指南',
-      items: [
-        { text: '介绍', link: '/guide/' }
+        { text: '介绍', link: '/' },
+        { text: '贡献指南', link: '/guide/' }
       ]
     }
   ]
