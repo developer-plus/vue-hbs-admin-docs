@@ -6,7 +6,7 @@
 
 - 仓库地址 [vue-hbs-admin-docs](https://github.com/Hongbusi/vue-hbs-admin-docs)。
 - 采用 [Vitepress](https://github.com/vuejs/vitepress) 构建的，依赖于 [@vue/theme](https://github.com/vuejs/theme)。
-- 如发现文档有误，欢迎提 pr 帮助我们改进。
+- 如发现文档有误，欢迎提 PR 帮助我们改进。
 
 ## 本地运行项目
 
@@ -26,7 +26,7 @@ pnpm run dev
 ## 如何加入我们
 
 - 目前 [vue-hbs-admin](https://github.com/Hongbusi/vue-hbs-admin) 正在火热更新中，欢迎您的参与，共同维护，逐步完善。
-- 如果你想加入我们，可以多提供一些好的建议或者提交 pr，我们会根据你的活跃度邀请你加入。
+- 如果你想加入我们，可以多提供一些好的建议或者提交 PR，我们会根据你的活跃度邀请你加入。
 - 你也可以添加微信：`Hongbusi16530` 了解更多。
 
 ## 贡献者
