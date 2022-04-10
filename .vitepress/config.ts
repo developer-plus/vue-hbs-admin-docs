@@ -85,7 +85,14 @@ function getComponentsSidebar() {
     {
       text: '组件',
       items: [
-        { text: '介绍', link: '/components/' }
+        { text: '介绍', link: '/components/' },
+        { text: '文档模版', link: '/components/example' }
+      ]
+    },
+    {
+      text: '常用组件',
+      items: [
+        { text: 'Excel', link: '/components/excel' },
       ]
     }
   ]
