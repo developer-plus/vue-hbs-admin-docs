@@ -76,6 +76,13 @@ function getGuideSidebar() {
         { text: '介绍', link: '/' },
         { text: '贡献指南', link: '/guide/' }
       ]
+    },
+    {
+      text: '开发指南',
+      items: [
+        { text: '新增路由', link: '/guide/add-route' },
+        { text: '组件开发规范', link: '/guide/component' },
+      ]
     }
   ]
 }
