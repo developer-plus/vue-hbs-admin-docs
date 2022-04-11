@@ -100,6 +100,7 @@ function getComponentsSidebar() {
       text: '常用组件',
       items: [
         { text: 'Excel', link: '/components/excel' },
+        { text: '水印', link: '/components/watermark' },
       ]
     }
   ]
