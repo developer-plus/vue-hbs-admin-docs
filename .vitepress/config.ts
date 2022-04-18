@@ -101,6 +101,7 @@ function getComponentsSidebar() {
       items: [
         { text: 'Excel', link: '/components/excel' },
         { text: '水印', link: '/components/watermark' },
+        { text: '图片裁剪', link: '/components/cropper' },
       ]
     }
   ]
