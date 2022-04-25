@@ -12,18 +12,14 @@
 
 ## 任务状态
 
-- issue 存在 `label` 为 `Developer`、`Developer:username` 时，表示任务已被领取。
-- issue 下有人留言要去做这个功能，表示任务已被领取。
+- issue `Assignee` 有指向时，表示任务已被领取；
+- issue 下有人留言要去做这个功能，表示任务已被领取；
 - 否则，视为未被领取。
-
-::: warning 注意
-一周内未提交任何相关 PR，视为放弃任务。
-:::
 
 ## 领取任务
 
-- 项目成员：对应 issue 添加 `label`，格式为：`Developer:username`。
-- 非项目成员：对应任务 issue 下留言，项目成员看见会为你添加 `label` -> `Developer`。
+- 项目成员：对应 issue `Assignee` 指向自己；
+- 非项目成员：对应任务 issue 下留言，项目成员看见会为你修改 `Assignee` 指向。
 
 ## 提交 PR 指南
 
