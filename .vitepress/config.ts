@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import { defineConfigWithTheme } from 'vitepress'
 import baseConfig from '@vue/theme/config'
 import type { Config } from '@vue/theme'
-import { UserConfig } from 'vitepress'
+import type { UserConfig } from 'vitepress'
 import { NavbarFix } from './plugins/navbar'
 import Components from 'unplugin-vue-components/vite'
 
