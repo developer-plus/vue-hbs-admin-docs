@@ -6,6 +6,7 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>;
   export default component;
 }
+
 declare module '@vue/theme/config' {
   import type { UserConfig } from 'vitepress'
   const config: () => Promise<UserConfig>
