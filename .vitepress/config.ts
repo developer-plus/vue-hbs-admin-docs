@@ -99,9 +99,11 @@ function getComponentsSidebar() {
     {
       text: '常用组件',
       items: [
+        { text: 'Page', link: '/components/page' },
         { text: 'Excel', link: '/components/excel' },
+        { text: '数字动画', link: '/components/count-to' },
         { text: '水印', link: '/components/watermark' },
-        { text: '图片裁剪', link: '/components/cropper' },
+        { text: '图片裁剪', link: '/components/cropper' }
       ]
     }
   ]
