@@ -2,6 +2,8 @@
   "compilerOptions": {
     "outDir": "dist",
     "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "resolveJsonModule": true,
@@ -9,8 +11,14 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "/@theme/*": [".vitepress/theme/*"]
+      "/@theme/*": [
+        ".vitepress/theme/*"
+      ]
     }
   },
-  "include": ["env.d.ts", "src/**/*", ".vitepress/**/*"]
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    ".vitepress/**/*"
+  ]
 }
