@@ -81,6 +81,7 @@ function getGuideSidebar() {
       text: '开发指南',
       items: [
         { text: '新增路由', link: '/guide/add-route' },
+        { text: '路由配置', link: '/guide/route-config' },
         { text: '组件开发规范', link: '/guide/component' },
       ]
     }
