@@ -74,7 +74,8 @@ function getGuideSidebar() {
       text: '指南',
       items: [
         { text: '介绍', link: '/' },
-        { text: '贡献指南', link: '/guide/' }
+        { text: '贡献指南', link: '/guide/' },
+        { text: '提交 PR 指南', link: '/guide/new-pr' }
       ]
     },
     {
