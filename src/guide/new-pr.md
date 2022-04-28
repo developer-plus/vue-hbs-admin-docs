@@ -1,9 +1,8 @@
 # 如何在 GitHub 上给项目提 **PR**（Pull Request）
 
 ![new Pull Request Path](./images/new-pull-request-path.png)
-## 基本步骤
 
-### 1. Fork Repository
+## 1. Fork Repository
 
 先把需要提 **PR** 的仓库 Fork 到自己的远程仓库
 
@@ -11,21 +10,21 @@
 
 ![fork repository](./images/fork-repository-status.png)
 
-### 2. Clone Repository
+## 2. Clone Repository
 
 把 Fork 到的仓库，从自己的远程仓库Clone到本地
 
 ![clone repository](./images/clone-repository.png)
 
-### 3. Edit Code
+## 3. Edit Code
 
 编辑需要 **PR** 的代码。这里最好新建一个分支进行提交。
 
-### 4. Push
+## 4. Push
 
 将编辑好的代码提交到你的远程仓库
 
-### 5. New Pull Request
+## 5. New Pull Request
 
 **方式一**
 
@@ -43,11 +42,11 @@
 
 ![comparing changes](./images/comparing-changes.png)
 
-### 6. Review Pull Request
+## 6. Review Pull Request
 
 新建 **PR** 后，需要管理员进行 Review，这个过程往往需要反复几次意见修改才能通过
 
-### 7. Merge Pull Request
+## 7. Merge Pull Request
 
 通过后的 **PR** 将被管理员合并到主分支。完成 **PR** 操作。
 
