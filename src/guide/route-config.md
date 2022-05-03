@@ -56,15 +56,13 @@ const route: RouteRecordRaw = {
     // 在 meta 信息中添加 icon 字段
     icon: SettingOutlined,
     single: true,
-    sort: 3,
+    title: '关于',
+    sort: 4
   },
   children: [
     {
       path: '',
       name: 'about-page',
-      meta: {
-        title: '关于'
-      },
       component: () => import('~/views/about/index.vue')
     }
   ]
