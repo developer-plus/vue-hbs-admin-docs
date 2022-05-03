@@ -26,6 +26,8 @@ interface RouteMeta {
   icon?: FunctionalComponent
   // 是否是单独的菜单（将不会渲染 children）仅支持最顶级菜单设置该字段
   single?: boolean
+  // 是否隐藏面包屑
+  hideBreadcrumb?: boolean
   // 路由携带参数
   routeParams?: RouteLocationNormalized["params"]
   routeQuery?: RouteLocationNormalized["query"]
@@ -56,12 +58,16 @@ const route: RouteRecordRaw = {
     // 在 meta 信息中添加 icon 字段
     icon: SettingOutlined,
     single: true,
-    sort: 3
+    sort: 3,
+    hideBreadcrumb: true
   },
   children: [
     {
       path: '',
       name: 'about-page',
+      meta: {
+        title: '关于'
+      },
       component: () => import('~/views/about/index.vue')
     }
   ]
