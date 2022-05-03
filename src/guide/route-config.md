@@ -19,7 +19,7 @@ interface RouteMeta {
   // 标题
   title: string
   // 排序索引，自小到大排序
-  sort: number
+  sort?: number
   // 是否隐藏菜单（该路由将不再左侧菜单中显示）
   isHide?: boolean
   // icon，目前仅支持引入 antdv 中的 icon 组件
@@ -56,7 +56,8 @@ const route: RouteRecordRaw = {
     // 在 meta 信息中添加 icon 字段
     icon: SettingOutlined,
     single: true,
-    sort: 3
+    title: '关于',
+    sort: 4
   },
   children: [
     {
