@@ -26,8 +26,6 @@ interface RouteMeta {
   icon?: FunctionalComponent
   // 是否是单独的菜单（将不会渲染 children）仅支持最顶级菜单设置该字段
   single?: boolean
-  // 是否隐藏面包屑
-  hideBreadcrumb?: boolean
   // 路由携带参数
   routeParams?: RouteLocationNormalized["params"]
   routeQuery?: RouteLocationNormalized["query"]
@@ -59,7 +57,6 @@ const route: RouteRecordRaw = {
     icon: SettingOutlined,
     single: true,
     sort: 3,
-    hideBreadcrumb: true
   },
   children: [
     {
